@@ -1,0 +1,10 @@
+for(let i = 1; i <= 20; i++){
+    if(i % 3 === 0 && i % 2 === 1){
+        console.log('I Love Coding')
+    }
+    else if(i % 2 === 1){
+        console.log('Santai')
+    } else if(i % 2 === 0){
+        console.log('Berkualitas')
+    } 
+}
